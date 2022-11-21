@@ -1,0 +1,77 @@
+.App {
+  font-family: 'inter', sans-serif;
+}
+
+.Container {
+  margin: 6vw;
+  margin-bottom: 4vw;
+}
+
+.textView {
+  background-color: #f1f1f1;
+  border-radius: 8px;
+  border: 1px solid #dbdbdb;
+  padding: 12px;
+  padding-left: 16px;
+  margin-bottom: 8px;
+}
+
+.divider {
+  margin-top:16px;
+  margin-bottom:16px;
+}
+
+.HorContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.InputContainer {
+  padding: 6vw;
+  padding-top: 0px;
+  border: 1px solid #323232;
+  border-style: solid none none;
+}
+
+.TextField {
+  width:30vw;
+  font-size: 15px;
+  border-radius: 8px;
+  border: 1px solid #bdbdbd;
+  padding: 20px;
+
+}
+
+.RadioContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 2vw;
+}
+
+.radio_align {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+}
+
+[type="radio"] {
+  width: 20px;
+  height: 20px;
+}
+
+.SubmitBtn {
+  padding: 16px;
+  padding-left: 60px;
+  padding-right: 60px;
+  border: none;
+  border-radius: 8px;
+  background-color: #323232;
+  color: #ffffff;
+  font-size: 15px;
+}
